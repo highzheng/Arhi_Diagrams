@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T08:44:15.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Vhn72VrP5_C8MmKR9qhT" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T08:46:21.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Xt8koHZSh2OZzFxIrJMF" version="21.0.8" type="github">
   <diagram name="Page-1" id="tp0379S5NRotYZGIwrvq">
     <mxGraphModel dx="1674" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="PY6hMegodC8Zt7V4-v8n-17" value="App&lt;br&gt;Golden" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.topic;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1180" y="582" width="49.5" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="PY6hMegodC8Zt7V4-v8n-19" value="Digital Human&lt;br&gt;Session data" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/crystalproject/128x128/apps/Session-Manager.png" vertex="1" parent="1">
+        <mxCell id="PY6hMegodC8Zt7V4-v8n-19" value="Digital Human&lt;br&gt;Session" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/crystalproject/128x128/apps/Session-Manager.png" vertex="1" parent="1">
           <mxGeometry x="250" y="360.25" width="58" height="58" as="geometry" />
         </mxCell>
         <mxCell id="PY6hMegodC8Zt7V4-v8n-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="PY6hMegodC8Zt7V4-v8n-19" target="PY6hMegodC8Zt7V4-v8n-10">
