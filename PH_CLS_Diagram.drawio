@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T08:59:31.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="s60baDzSCHHAIgXAEtdd" version="21.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-18T09:00:40.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1QWG1Y3yXLMztPLXqQT0" version="21.2.3" type="github" pages="2">
   <diagram name="Page-1" id="VyovsvrK2ieTucdRnhX0">
     <mxGraphModel dx="3894" dy="2444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
           <mxGeometry x="190.00000000000003" y="619.9999999999999" width="23.42" height="23.42" as="geometry" />
         </mxCell>
         <mxCell id="GK2reA9UZk9PEzzm5WYG-34" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;3&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="799.15" y="86.50000000000011" width="23.42" height="23.42" as="geometry" />
+          <mxGeometry x="820.79" y="83.50000000000011" width="23.42" height="23.42" as="geometry" />
         </mxCell>
         <mxCell id="GK2reA9UZk9PEzzm5WYG-40" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;10&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="802.2" y="355.9999999999999" width="23.42" height="23.42" as="geometry" />
@@ -350,7 +350,7 @@
             <Array as="points">
               <mxPoint x="1340" y="529" />
               <mxPoint x="1340" y="110" />
-              <mxPoint x="833" y="110" />
+              <mxPoint x="851" y="110" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -388,7 +388,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rBXdASvhPbtsxyC5hf3n-12" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 16px;&quot;&gt;Subscribe &amp;amp; Publish AWS CC&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="842.55" y="78.21" width="277.45" height="40" as="geometry" />
+          <mxGeometry x="850" y="78.21" width="277.45" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rBXdASvhPbtsxyC5hf3n-13" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="886.5600000000001" y="5.240000000000109" width="23.42" height="23.42" as="geometry" />
@@ -404,6 +404,9 @@
         </mxCell>
         <mxCell id="rBXdASvhPbtsxyC5hf3n-20" value="&lt;span&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider gr b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;h3 style=&quot;margin: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;&quot;&gt;Interim solution&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-214.58000000000004" y="-309.5" width="268.41" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBXdASvhPbtsxyC5hf3n-21" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
+          <mxGeometry x="1114.2900000000002" y="65.42000000000003" width="35.09" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
