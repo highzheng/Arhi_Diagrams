@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T08:51:37.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="uLz9o-Sa8QiCQMBZi262" version="21.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-18T08:52:04.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JH8Bsdi0IeyfhqCBqaZ7" version="21.2.3" type="github" pages="2">
   <diagram name="Page-1" id="VyovsvrK2ieTucdRnhX0">
     <mxGraphModel dx="3894" dy="2444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -328,7 +328,7 @@
         <mxCell id="GK2reA9UZk9PEzzm5WYG-107" value="DWD" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" vertex="1" parent="1">
           <mxGeometry x="1034.8500000000001" y="-49.34000000000003" width="60.8" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GK2reA9UZk9PEzzm5WYG-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#333333;" edge="1" parent="1" source="GK2reA9UZk9PEzzm5WYG-106" target="GK2reA9UZk9PEzzm5WYG-107">
+        <mxCell id="GK2reA9UZk9PEzzm5WYG-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="GK2reA9UZk9PEzzm5WYG-106" target="GK2reA9UZk9PEzzm5WYG-107">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="581" y="249" as="sourcePoint" />
             <mxPoint x="840" y="41" as="targetPoint" />
