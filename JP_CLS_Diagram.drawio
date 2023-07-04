@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T09:25:10.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="V1Dje0Woh_EYcuyh7nnt" version="21.3.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-04T09:27:25.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HAeaFmzmplU9OnspvfF0" version="21.3.7" type="github" pages="4">
   <diagram name="Page-1" id="aGPxRvVlbG0rxvT0GZqG">
     <mxGraphModel dx="3241" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -554,7 +554,7 @@
         <mxCell id="lRkIUMOE-03owHZgg2nO-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;To be implemented&lt;br&gt;&lt;/font&gt;" style="text;align=left;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-269.20000000000005" y="153.69000000000005" width="371.2" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lRkIUMOE-03owHZgg2nO-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Japan CLS data flow&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lRkIUMOE-03owHZgg2nO-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Japan CUBE integration data flow&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-272.50000000000006" y="194.25" width="352.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lRkIUMOE-03owHZgg2nO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#000000;dashed=1;" edge="1" parent="1">
