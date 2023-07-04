@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T01:33:50.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xTmvYjOhAZBWlHbw9S_Z" version="21.3.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-04T01:38:43.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KFc46muJLWZ17-_5dkz3" version="21.3.7" type="github" pages="4">
   <diagram name="Page-1" id="aGPxRvVlbG0rxvT0GZqG">
     <mxGraphModel dx="2524" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -224,6 +224,33 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="384" as="sourcePoint" />
             <mxPoint x="550" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxyQbLWQhKTCAPjaSkQJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280.00000000000045" y="135.49999999999977" as="sourcePoint" />
+            <mxPoint x="-360.00000000000045" y="135.49999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxyQbLWQhKTCAPjaSkQJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280.00000000000045" y="217.57000000000016" as="sourcePoint" />
+            <mxPoint x="-360.00000000000045" y="217.57000000000016" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxyQbLWQhKTCAPjaSkQJ-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Existing in the FWD Japan Systems&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="114.5" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxyQbLWQhKTCAPjaSkQJ-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;To be implemented&lt;br&gt;&lt;/font&gt;" style="text;align=left;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-269.20000000000005" y="153.69000000000005" width="371.2" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxyQbLWQhKTCAPjaSkQJ-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Japan CLS data flow&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-272.50000000000006" y="194.25" width="352.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxyQbLWQhKTCAPjaSkQJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#000000;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280.00000000000045" y="177.99999999999977" as="sourcePoint" />
+            <mxPoint x="-360.00000000000045" y="177.99999999999977" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
@@ -490,6 +517,33 @@
         </mxCell>
         <mxCell id="4MUvsWQ3_mwptmqxW86S-33" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_oracle_instance;" vertex="1" parent="1">
           <mxGeometry x="-100" y="377" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="lRkIUMOE-03owHZgg2nO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280.00000000000045" y="135.49999999999977" as="sourcePoint" />
+            <mxPoint x="-360.00000000000045" y="135.49999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRkIUMOE-03owHZgg2nO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280.00000000000045" y="217.57000000000016" as="sourcePoint" />
+            <mxPoint x="-360.00000000000045" y="217.57000000000016" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRkIUMOE-03owHZgg2nO-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Existing in the FWD Japan Systems&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="114.5" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lRkIUMOE-03owHZgg2nO-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;To be implemented&lt;br&gt;&lt;/font&gt;" style="text;align=left;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-269.20000000000005" y="153.69000000000005" width="371.2" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lRkIUMOE-03owHZgg2nO-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Japan CLS data flow&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-272.50000000000006" y="194.25" width="352.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lRkIUMOE-03owHZgg2nO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#000000;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280.00000000000045" y="177.99999999999977" as="sourcePoint" />
+            <mxPoint x="-360.00000000000045" y="177.99999999999977" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
