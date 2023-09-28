@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-28T01:26:03.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="82PxMH0XLuExwFJUtkUE" version="21.8.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-28T01:30:02.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="v70w1udJc2hZhajDiJIp" version="21.8.2" type="github" pages="4">
   <diagram name="HK CLS Data Flow Low " id="BIweI6LqSMojEj91vhkt">
     <mxGraphModel dx="1034" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -634,7 +634,7 @@
           <mxGeometry x="144.37" y="380" width="23.42" height="23.42" as="geometry" />
         </mxCell>
         <mxCell id="xYcePQFiw9ZgbGjswh6k-12" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Notebook&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Consuming&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="348.42" width="143" height="40" as="geometry" />
+          <mxGeometry x="508.21" y="348.42" width="143" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xYcePQFiw9ZgbGjswh6k-13" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;6&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="402" y="300" width="23.42" height="23.42" as="geometry" />
@@ -667,8 +667,8 @@
         <mxCell id="dLmQmG9SuaWDg06kbE3v-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot; color=&quot;#e78822&quot;&gt;Salesforce Cloud&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="175" width="138" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dLmQmG9SuaWDg06kbE3v-2" value="&lt;font style=&quot;&quot;&gt;1.HK SF disable;&lt;br&gt;&amp;nbsp; &amp;nbsp; (Stop sending messages)&lt;br&gt;2.Topic creation on CC&lt;br&gt;3.SF Source connector config&lt;br&gt;&amp;nbsp; &amp;nbsp; (Configuration without running)&amp;nbsp;&lt;br&gt;4.CLS Notebook upload &lt;br&gt;&amp;nbsp; &amp;nbsp; (without workflow set)&lt;br&gt;5.CLS SF ODS table backup&lt;br&gt;&lt;div style=&quot;&quot;&gt;6.Historical data load to CC manually&lt;/div&gt;7.Historical data&amp;nbsp;validation&lt;br&gt;&lt;div style=&quot;&quot;&gt;8.Setup SF workflow&lt;br&gt;&amp;nbsp; &amp;nbsp;(Consuming Notebook Migrated in CLS &amp;amp; HK Datalake)&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;9.Enable Source connector&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;(Start the Source connector)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;/font&gt;10.HK SF disable;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; (Start sending messages)&lt;br&gt;11.Event Data validation&lt;br&gt;12.Monitor the workflow&lt;br&gt;&amp;nbsp; &amp;nbsp; (Whether it is working)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="650" y="60" width="350" height="320" as="geometry" />
+        <mxCell id="dLmQmG9SuaWDg06kbE3v-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;&quot;&gt;1.HK SF disable;&lt;br&gt;&amp;nbsp; &amp;nbsp; (Stop sending messages)&lt;br&gt;2.Topic creation on CC&lt;br&gt;3.SF Source connector config&lt;br&gt;&amp;nbsp; &amp;nbsp; (Configuration without running)&amp;nbsp;&lt;br&gt;4.CLS Notebook upload &lt;br&gt;&amp;nbsp; &amp;nbsp; (without workflow set)&lt;br&gt;5.CLS SF ODS table backup&lt;br&gt;&lt;div style=&quot;&quot;&gt;6.Historical data load to CC manually&lt;/div&gt;7.Historical data&amp;nbsp;validation&lt;br&gt;&lt;div style=&quot;&quot;&gt;8.Setup SF workflow&lt;br&gt;&amp;nbsp; &amp;nbsp;(Consuming Notebook Migrated in CLS &amp;amp; HK Datalake)&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;9.Enable Source connector&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp;(Start the Source connector)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;/font&gt;10.HK SF disable;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; (Start sending messages)&lt;br&gt;11.Event Data validation&lt;br&gt;12.Monitor the workflow&lt;br&gt;&amp;nbsp; &amp;nbsp; (Whether it is working)&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="632" y="71.58" width="350" height="320" as="geometry" />
         </mxCell>
         <mxCell id="IrRzBK7ik1q9bliYc-wH-3" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="506.58" y="245" width="23.42" height="23.42" as="geometry" />
@@ -699,6 +699,33 @@
         </mxCell>
         <mxCell id="IrRzBK7ik1q9bliYc-wH-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;12&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="525.29" y="409" width="23.42" height="23.42" as="geometry" />
+        </mxCell>
+        <mxCell id="IrRzBK7ik1q9bliYc-wH-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#333333;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="109" as="sourcePoint" />
+            <mxPoint x="120" y="109" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrRzBK7ik1q9bliYc-wH-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="89" as="sourcePoint" />
+            <mxPoint x="120" y="89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrRzBK7ik1q9bliYc-wH-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="129" as="sourcePoint" />
+            <mxPoint x="120" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrRzBK7ik1q9bliYc-wH-20" value="&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;CC DataFlow&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="106.08" y="79" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IrRzBK7ik1q9bliYc-wH-21" value="&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;CP DataFlow&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="106.08" y="99" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IrRzBK7ik1q9bliYc-wH-22" value="&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;One time running Manually&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="106.08" y="119" width="163.92" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
