@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T07:55:32.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="UBrkJTiHllvYRrMkG41g" version="24.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-06-14T07:57:47.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="yL0PlrpPUkR1-ntQ-CrE" version="24.5.1" type="github" pages="6">
   <diagram name="Page-1" id="tp0379S5NRotYZGIwrvq">
     <mxGraphModel dx="2954" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -748,34 +748,40 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xDSQYSj9QUxr426V_Plp-2" value="NN DAP CR DROP Deployment Demo" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210.00000000000045" y="80" width="379.99999999999955" height="480" as="geometry" />
+          <mxGeometry x="210.00000000000045" y="80" width="380" height="480" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-3" value="CG" style="swimlane;startSize=20;html=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-2">
-          <mxGeometry y="20" width="139.99999999999955" height="460" as="geometry" />
+          <mxGeometry y="20" width="140" height="460" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xDSQYSj9QUxr426V_Plp-3" source="xDSQYSj9QUxr426V_Plp-7" target="xDSQYSj9QUxr426V_Plp-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xDSQYSj9QUxr426V_Plp-7" value="需求分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-3">
+        <mxCell id="xDSQYSj9QUxr426V_Plp-7" value="开发完成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-3">
           <mxGeometry x="30" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xDSQYSj9QUxr426V_Plp-3" source="xDSQYSj9QUxr426V_Plp-8" target="xDSQYSj9QUxr426V_Plp-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xDSQYSj9QUxr426V_Plp-8" value="评估方案" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-3">
-          <mxGeometry x="25" y="100" width="90" height="20" as="geometry" />
+        <mxCell id="xDSQYSj9QUxr426V_Plp-8" value="提交代码Dev branch" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-3">
+          <mxGeometry x="12.5" y="100" width="115" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xDSQYSj9QUxr426V_Plp-10" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-3">
+        <mxCell id="xDSQYSj9QUxr426V_Plp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="xDSQYSj9QUxr426V_Plp-3" source="xDSQYSj9QUxr426V_Plp-10" target="xDSQYSj9QUxr426V_Plp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xDSQYSj9QUxr426V_Plp-10" value="部署测试" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-3">
           <mxGeometry x="20" y="150" width="100" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="xDSQYSj9QUxr426V_Plp-14" value="UAT测试联调" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-3">
+          <mxGeometry x="20" y="200" width="100" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-4" value="NN" style="swimlane;startSize=20;html=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-2">
-          <mxGeometry x="139.99999999999955" y="20" width="120" height="460" as="geometry" />
+          <mxGeometry x="140" y="20" width="120" height="460" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-12" value="需求提出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-4">
           <mxGeometry x="20" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-5" value="Vendor" style="swimlane;startSize=20;html=1;" vertex="1" parent="xDSQYSj9QUxr426V_Plp-2">
-          <mxGeometry x="259.99999999999955" y="20" width="120" height="460" as="geometry" />
+          <mxGeometry x="260" y="20" width="120" height="460" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xDSQYSj9QUxr426V_Plp-2" source="xDSQYSj9QUxr426V_Plp-12" target="xDSQYSj9QUxr426V_Plp-7">
           <mxGeometry relative="1" as="geometry" />
