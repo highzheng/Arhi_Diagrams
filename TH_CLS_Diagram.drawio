@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T07:21:14.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="V-x2Ta6z2_euNY__EnYJ" version="24.5.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-19T07:22:30.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="XDQVClXLD4VuVmVXEwmr" version="24.5.4" type="github" pages="7">
   <diagram name="Page-1" id="tp0379S5NRotYZGIwrvq">
     <mxGraphModel dx="2954" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -748,7 +748,7 @@
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-4" value="Before PROD Deployment" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jh9G-vTCGXpnsFreRWyh-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;部署生产之前，ADF和Notebook 需要部署测试环境进行测试的，先手动通过复制方式部署到测试环境，待测试通过之后，可以部署生产时，统一提交GIT，通过CICD 分别部署测试环境和生产环境，测试环境会覆盖掉之前手动复制部署的部分，如图所示：&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Jh9G-vTCGXpnsFreRWyh-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;生产部署之前，ADF和Notebook 需要部署测试环境进行测试的，先手动通过复制方式部署到测试环境，待测试通过之后，可以部署生产时，统一提交GIT，通过CICD 分别部署测试环境和生产环境，测试环境会覆盖掉之前手动复制部署的部分，如图所示：&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="174.5" width="645" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-6" value="DEV" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
@@ -806,7 +806,7 @@
           <mxGeometry x="590" y="165" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-19" value="Git Submitted" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="499" y="200" width="93" height="20" as="geometry" />
+          <mxGeometry x="500" y="200" width="93" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#6666FF;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
