@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T08:28:12.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="crD2wcdP7ToFyev6tApa" version="24.5.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-19T09:03:07.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6nIaxx1bBiKicuhI2xjg" version="24.5.4" type="github" pages="7">
   <diagram name="Page-1" id="tp0379S5NRotYZGIwrvq">
     <mxGraphModel dx="2954" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -849,16 +849,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-10" value="手工复制部署测试" style="whiteSpace=wrap;html=1;rounded=1;" parent="xDSQYSj9QUxr426V_Plp-3" vertex="1">
-          <mxGeometry x="20" y="150" width="100" height="20" as="geometry" />
+          <mxGeometry x="16.5" y="120" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xDSQYSj9QUxr426V_Plp-3" source="xDSQYSj9QUxr426V_Plp-14" target="xDSQYSj9QUxr426V_Plp-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-14" value="UAT测试联调" style="whiteSpace=wrap;html=1;rounded=1;" parent="xDSQYSj9QUxr426V_Plp-3" vertex="1">
-          <mxGeometry x="20" y="200" width="100" height="20" as="geometry" />
+          <mxGeometry x="16.5" y="180" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-16" value="UAT report" style="whiteSpace=wrap;html=1;rounded=1;" parent="xDSQYSj9QUxr426V_Plp-3" vertex="1">
-          <mxGeometry x="10" y="250" width="120" height="20" as="geometry" />
+          <mxGeometry x="6.5" y="250" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xDSQYSj9QUxr426V_Plp-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xDSQYSj9QUxr426V_Plp-3" source="xDSQYSj9QUxr426V_Plp-20" target="xDSQYSj9QUxr426V_Plp-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -947,36 +947,75 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rh5EUMtMesm1mDOcnp8F" name="Page-7">
-    <mxGraphModel dx="2314" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XDFKYXhfQs10AjitTKGA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDFKYXhfQs10AjitTKGA-1" target="XDFKYXhfQs10AjitTKGA-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-1" value="Testing Pass" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/devops/continuous_testing.svg;" vertex="1" parent="1">
+          <mxGeometry x="430" y="164" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XDFKYXhfQs10AjitTKGA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDFKYXhfQs10AjitTKGA-1" target="XDFKYXhfQs10AjitTKGA-4">
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-2" value="Before PROD Deployment" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;生产部署之前，ADF和Notebook 需要部署测试环境进行测试的，先手动通过复制方式部署到测试环境，待测试通过之后，可以部署生产时，统一提交GIT，通过CICD 分别部署测试环境和生产环境，测试环境会覆盖掉之前手动复制部署的部分，如图所示：&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174.5" width="645" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-4" value="DEV" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-5" value="DEV" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="42.8" height="46.34" as="geometry" />
+        </mxCell>
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#d5e8d4;strokeColor=#E43B29;endSize=4;startSize=4;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="160" y="280" />
-            </Array>
+            <mxPoint x="234.5" y="243.5" as="targetPoint" />
+            <mxPoint x="174.5" y="243.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDFKYXhfQs10AjitTKGA-7" value="CME" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDFKYXhfQs10AjitTKGA-6">
-          <mxGeometry x="-0.0467" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#CCE3F5;strokeColor=#0076D0;endSize=4;startSize=4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="140" as="targetPoint" />
+            <mxPoint x="175" y="140" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDFKYXhfQs10AjitTKGA-1" value="PBI --尚北" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-8" value="Manual Copy" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="139" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XDFKYXhfQs10AjitTKGA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDFKYXhfQs10AjitTKGA-2" target="XDFKYXhfQs10AjitTKGA-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-9" value="Manual Copy" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="242" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XDFKYXhfQs10AjitTKGA-2" value="DWS --TW" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#d5e8d4;strokeColor=#E43B29;endSize=4;startSize=4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414.25" y="220" as="targetPoint" />
+            <mxPoint x="353.75" y="243.5" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="XDFKYXhfQs10AjitTKGA-4" value="SC --CG" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#d5e8d4;strokeColor=#0076D0;endSize=4;startSize=4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="180" as="targetPoint" />
+            <mxPoint x="354" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-13" value="Git" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.github_code;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="430" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#d5e8d4;strokeColor=#2472D9;endSize=4;startSize=4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="718" y="189.5" as="targetPoint" />
+            <mxPoint x="650" y="189.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-16" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=deploy" vertex="1" parent="1">
+          <mxGeometry x="720" y="165" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-17" value="CICD Deployment&lt;div&gt;(TST/PROD)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="691" y="210" width="108" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-18" value="TST" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="276" y="112" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sYf0JWrdwB-WnfJfAtPq-19" value="TST" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
+          <mxGeometry x="278.6" y="220" width="42.8" height="46.34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
