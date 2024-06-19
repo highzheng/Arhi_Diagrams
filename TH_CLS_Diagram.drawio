@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T07:35:15.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aNmLjqGlR7VLbLpKpC2v" version="24.5.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-19T07:36:55.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="f6dZLw0H5Rb28NPlc5JJ" version="24.5.4" type="github" pages="7">
   <diagram name="Page-1" id="tp0379S5NRotYZGIwrvq">
     <mxGraphModel dx="2954" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -476,6 +476,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Jh9G-vTCGXpnsFreRWyh-16" value="Testing Pass" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/devops/continuous_testing.svg;" vertex="1" parent="1">
+          <mxGeometry x="430" y="164" width="50" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="_5pGIIAS3tbBoMZiF2tw-2" value="DEV" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="250" y="547" width="50" height="50" as="geometry" />
         </mxCell>
@@ -787,9 +790,6 @@
             <mxPoint x="354" y="150" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jh9G-vTCGXpnsFreRWyh-16" value="Testing Pass" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/devops/continuous_testing.svg;" vertex="1" parent="1">
-          <mxGeometry x="426" y="160" width="60" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#d5e8d4;strokeColor=#00BEF1;endSize=4;startSize=4;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="578" y="189.5" as="targetPoint" />
@@ -812,7 +812,7 @@
           <mxGeometry x="720" y="165" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-24" value="CICD Deployment&lt;div&gt;(TST/PROD)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="691" y="220" width="108" height="20" as="geometry" />
+          <mxGeometry x="691" y="210" width="108" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-25" value="DEV" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
           <mxGeometry x="276" y="112" width="48" height="48" as="geometry" />
