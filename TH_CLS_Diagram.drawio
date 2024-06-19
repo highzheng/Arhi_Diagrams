@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T07:24:53.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="koUJC2AfvoD37dMde2Fp" version="24.5.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-19T07:30:02.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="FeMpB2KF_kCiQ7aX6RS-" version="24.5.4" type="github" pages="7">
   <diagram name="Page-1" id="tp0379S5NRotYZGIwrvq">
     <mxGraphModel dx="2954" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -757,13 +757,13 @@
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-7" value="DEV" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
           <mxGeometry x="80" y="210" width="62.8" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="Jh9G-vTCGXpnsFreRWyh-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#FF0000;" edge="1" parent="1">
+        <mxCell id="Jh9G-vTCGXpnsFreRWyh-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#E43B29;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="234.5" y="243.5" as="targetPoint" />
             <mxPoint x="174.5" y="243.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jh9G-vTCGXpnsFreRWyh-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#CCE3F5;strokeColor=#6666FF;" edge="1" parent="1">
+        <mxCell id="Jh9G-vTCGXpnsFreRWyh-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#CCE3F5;strokeColor=#0076D0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="235" y="140" as="targetPoint" />
             <mxPoint x="175" y="140" as="sourcePoint" />
@@ -781,13 +781,13 @@
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-13" value="Manual Copy" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="200" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jh9G-vTCGXpnsFreRWyh-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#FF0000;" edge="1" parent="1">
+        <mxCell id="Jh9G-vTCGXpnsFreRWyh-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#E43B29;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="220" as="targetPoint" />
             <mxPoint x="369.5" y="243.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jh9G-vTCGXpnsFreRWyh-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#6666FF;" edge="1" parent="1">
+        <mxCell id="Jh9G-vTCGXpnsFreRWyh-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#0076D0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="170" as="targetPoint" />
             <mxPoint x="370" y="140" as="sourcePoint" />
@@ -796,7 +796,7 @@
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-16" value="Testing Pass" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/devops/continuous_testing.svg;" vertex="1" parent="1">
           <mxGeometry x="432" y="160" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jh9G-vTCGXpnsFreRWyh-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#6666FF;" edge="1" parent="1">
+        <mxCell id="Jh9G-vTCGXpnsFreRWyh-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#00BEF1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="578" y="189.5" as="targetPoint" />
             <mxPoint x="510" y="189.5" as="sourcePoint" />
@@ -808,7 +808,7 @@
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-19" value="Git Submitted" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="200" width="93" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jh9G-vTCGXpnsFreRWyh-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#6666FF;" edge="1" parent="1">
+        <mxCell id="Jh9G-vTCGXpnsFreRWyh-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=6;fillColor=#d5e8d4;strokeColor=#2472D9;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="718" y="189.5" as="targetPoint" />
             <mxPoint x="650" y="189.5" as="sourcePoint" />
