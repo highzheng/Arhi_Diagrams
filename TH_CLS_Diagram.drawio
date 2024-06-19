@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T07:38:06.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="fEz_sj1LvbuR6h5UyvzS" version="24.5.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-19T07:53:48.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gdNdfM8b3DiRInKIjoju" version="24.5.4" type="github" pages="7">
   <diagram name="Page-1" id="tp0379S5NRotYZGIwrvq">
     <mxGraphModel dx="2954" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -814,10 +814,10 @@
         <mxCell id="Jh9G-vTCGXpnsFreRWyh-24" value="CICD Deployment&lt;div&gt;(TST/PROD)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="691" y="210" width="108" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jh9G-vTCGXpnsFreRWyh-25" value="DEV" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+        <mxCell id="Jh9G-vTCGXpnsFreRWyh-25" value="TST" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
           <mxGeometry x="276" y="112" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="Jh9G-vTCGXpnsFreRWyh-26" value="DEV" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
+        <mxCell id="Jh9G-vTCGXpnsFreRWyh-26" value="TST" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
           <mxGeometry x="278.6" y="220" width="42.8" height="46.34" as="geometry" />
         </mxCell>
       </root>
