@@ -1,9 +1,94 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="_Qr8ANrUyy9SPDQOTwbb">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-1" value="Access only through VPN" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="350" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-2" value="Private traffic" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWzD88bS2JCRsto6Qnlj-4" target="YWzD88bS2JCRsto6Qnlj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-4" value="SAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWzD88bS2JCRsto6Qnlj-6" target="YWzD88bS2JCRsto6Qnlj-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-6" value="Azure Function&lt;div&gt;API&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWzD88bS2JCRsto6Qnlj-10" target="YWzD88bS2JCRsto6Qnlj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-10" value="Azure Storage explorer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWzD88bS2JCRsto6Qnlj-12" target="YWzD88bS2JCRsto6Qnlj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-12" value="databricks" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-13" value="PowerBI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-16" value="Option 1&lt;div&gt;1.SAP Call Azure function API 推送数据&lt;/div&gt;&lt;div&gt;2.API 将数据写入Storage path&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-17" value="Access only through VPN" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="810" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-18" value="Private traffic" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="670" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWzD88bS2JCRsto6Qnlj-20" target="YWzD88bS2JCRsto6Qnlj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-20" value="SAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YWzD88bS2JCRsto6Qnlj-22" target="YWzD88bS2JCRsto6Qnlj-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-22" value="Self Hosted&lt;br&gt;integration runtime" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWzD88bS2JCRsto6Qnlj-24" target="YWzD88bS2JCRsto6Qnlj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-24" value="Azure Storage explorer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YWzD88bS2JCRsto6Qnlj-26" target="YWzD88bS2JCRsto6Qnlj-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-26" value="databricks" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-27" value="PowerBI" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-28" value="Option 2&lt;br&gt;1.SAP t提供账号密码&lt;div&gt;2.通过ADF linked service 链接SAP 对象&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="610" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-29" value="ADF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YWzD88bS2JCRsto6Qnlj-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YWzD88bS2JCRsto6Qnlj-29" target="YWzD88bS2JCRsto6Qnlj-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="740" as="targetPoint" />
+            <mxPoint x="470" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
